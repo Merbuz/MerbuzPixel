@@ -17,6 +17,7 @@ from machine import Pin
 p = Pin(4, Pin.OUT)
 
 merbuz = MerbuzPixel(p, 256) # Create class. first - pin of matrix, second - count of leds
+
 merbuz.setBrightness(10) # Set brightness 0-255
 
 merbuz.setPixel(i, (255, 255, 255)) # Set pixel, first - index, second - tuple of RGB
