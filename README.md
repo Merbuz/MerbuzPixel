@@ -5,6 +5,10 @@
 ## Contents
 - [How it uses?](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#how-it-use)
   - [Using library](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#using-library)
+  - [Class initialization](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#class-initialization)
+  - [Functions](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#functions)
+  - [Colors](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#colors)
+- [Code example](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#code-example)
 
 ## How it use?
 
