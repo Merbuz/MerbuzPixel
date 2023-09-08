@@ -20,7 +20,7 @@ merbuz = MerbuzPixel(p, 256) # Create class. first - pin of matrix, second - cou
 
 merbuz.setBrightness(10) # Set brightness 0-255
 
-merbuz.setPixel(i, (255, 255, 255)) # Set pixel, first - index, second - tuple of RGB
+merbuz.setPixel(0, (255, 255, 255)) # Set pixel, first - index, second - tuple of RGB
 
 merbuz.clearMatrix() # Just clear matrix. All
 
