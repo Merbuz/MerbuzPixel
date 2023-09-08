@@ -11,7 +11,7 @@ Just **download the library file** and import it into your board!
 Example of using the library
 
 ```python
-import merbuzpixel
+from merbuzpixel import MerbuzPixel
 from machine import Pin
 
 p = Pin(4, Pin.OUT)
