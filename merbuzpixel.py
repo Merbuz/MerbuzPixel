@@ -50,7 +50,7 @@ class MerbuzPixel:
         self.np.write()
     
     def clearPixel(self, index):
-        if index > self.leds or index < self.leds:
+        if index > self.leds:
             raise Exception('Index must be more or less than count of leds')
         self.np[index] = (0,0,0)
         self.np.write()
