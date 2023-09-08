@@ -11,24 +11,21 @@ Just **download the library file** and import it into your board!
 Example of using the library
 
 ```python
-from merbuzpixel import MerbuzPixel
-from machine import Pin
+from merbuzpixel import *
 
-p = Pin(4, Pin.OUT)
+merbuz = MerbuzPixel(pin=4, width=16, height=16) # Create class. first - pin of matrix, second - count of leds
 
-merbuz = MerbuzPixel(p, 256) # Create class. first - pin of matrix, second - count of leds
+merbuz.setBrightness(3) # Set brightness 0-255
 
-merbuz.setBrightness(10) # Set brightness 0-255
-
-merbuz.setPixel(0, (255, 255, 255)) # Set pixel, first - index, second - tuple of RGB
+merbuz.setPixel(index=0, rgb=(255, 255, 255)) # Set pixel, first - index, second - tuple of RGB
 
 merbuz.clearMatrix() # Just clear matrix. All
 
-merbuz.fillPixels(6, 70, (255, 255, 255)) # Fill by index led. First - index of first led, second - index of second led, third - tuple of RGB
+merbuz.fillPixels(firstIndex=6, secondIndex=70, rgb=(255, 255, 255)) # Fill by index led. First - index of first led, second - index of second led, third - tuple of RGB
 
-merbuz.fillBackground((255, 255, 255)) # Fill all matrix
+merbuz.fillBackground(rgb=MerbuzPixel.PINK) # Fill all matrix
 
-merbuz.clearPixel(0) # Pixel index to clear
+merbuz.clearPixel(index=0) # Pixel index to clear
 ```
 
 
