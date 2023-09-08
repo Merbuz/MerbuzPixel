@@ -3,12 +3,12 @@
 **MerbuzPixel** is an improved version of the **neopixel** library. A 16x16 matrix was tested on a **Wemos Mini d1 r1** microcontroller.
 
 ## Contents
-- [How it uses?](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#how-it-use)
-  - [Using library](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#using-library)
-  - [Class initialization](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#class-initialization)
-  - [Functions](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#functions)
-  - [Colors](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#colors)
-- [Code example](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#code-example)
+- [How it uses?](https://github.com/Merbuz/MerbuzPixel/tree/main#how-it-use)
+  - [Using library](https://github.com/Merbuz/MerbuzPixel/tree/main#using-library)
+  - [Class initialization](https://github.com/Merbuz/MerbuzPixel/tree/main#class-initialization)
+  - [Functions](https://github.com/Merbuz/MerbuzPixel/tree/main#functions)
+  - [Colors](https://github.com/Merbuz/MerbuzPixel/tree/main#colors)
+- [Code example](https://github.com/Merbuz/MerbuzPixel/tree/main#code-example)
 
 ## How it use?
 
