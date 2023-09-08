@@ -2,8 +2,9 @@
 
 **MerbuzPixel** is an improved version of the **neopixel** library. A 16x16 matrix was tested on a **Wemos Mini d1 r1** microcontroller.
 
-##Contents
-
+## Contents
+- [How it uses?](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#how-it-use)
+  - [Using library](https://github.com/Merbuz/MerbuzPixel/edit/main/README.md#using-library)
 
 ## How it use?
 
