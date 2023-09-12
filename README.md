@@ -77,7 +77,7 @@ merbuz.clearPixel(index=0)
 
 **Draw any image to matrix! (16 on 16)**
 ```python
-matrix.drawImage(file_name='place_your_file_name')
+merbuz.drawImage(file_name='place_your_file_name')
 ```
 - `file_name` a file with an encoded image with the .merbuzpixel extension. You can get this file if you use the [MerbuzPixelImage](https://github.com/Merbuz/MerbuzPixelImage) library.
 
@@ -142,7 +142,7 @@ merbuz.fillBackground(rgb=MerbuzPixel.PINK) # Fill all matrix. Use rgb as a argu
 
 merbuz.clearPixel(index=0) # Pixel index to clear
 
-matrix.drawImage(file_name='place_your_file') # Drawing method
+merbuz.drawImage(file_name='place_your_file') # Drawing method
 ```
 
 
