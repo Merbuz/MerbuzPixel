@@ -14,4 +14,4 @@ merbuz.fillBackground(rgb=MerbuzPixel.PINK) # Fill all matrix. Use rgb as a argu
 
 merbuz.clearPixel(index=0) # Pixel index to clear
 
-matrix.drawImage(file_name='place_your_file_name') # Drawing method
+merbuz.drawImage(file_name='place_your_file_name') # Drawing method
