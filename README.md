@@ -75,7 +75,7 @@ merbuz.clearPixel(index=0)
 ```
 - `index` index of pixel
 
-**Draw any image to matrix! (16 on 16)**
+**Draw any image to matrix! Any size**
 ```python
 merbuz.drawImage(file_name='place_your_file_name')
 ```
