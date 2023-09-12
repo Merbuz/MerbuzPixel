@@ -3,6 +3,8 @@ import mip # Import mip for install neopixel
 mip.install('neopixel')
 
 import neopixel
+import micropython
+from io import open
 from machine import Pin
 
 class MerbuzPixel:
@@ -74,3 +76,19 @@ class MerbuzPixel:
             raise Exception('Index more than count of leds')
         self.np[index] = (0,0,0)
         self.np.write()
+    
+    def drawImage(self, file_name):
+        # This method use file with .merbuzpixel extension where is the picture encoded
+        # Draw image method
+        
+        with open(file_name, 'r') as file:
+            try:
+                file_lines = file.readlines()
+                for lines in file_lines:
+                    lines = lines.replace('(','').split(')')
+                    for line in lines:
+                        R, G, B, index = int(line.split(',')[0]), int(line.split(',')[1]), int(line.split(',')[2]), int(line.split(',')[3])
+                        self.np[index] = (int(R * self.brightness), int(G * self.brightness), int(B * self.brightness))
+                        
+            except:
+                self.np.write()
