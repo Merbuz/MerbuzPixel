@@ -1,3 +1,5 @@
+The project is abandoned and not being updated due to the loss of my interest in MicroPython, as well as bad code in the project.
+
 # MerbuzPixel
 
 **MerbuzPixel** is an improved version of the **neopixel** library. A 16x16 matrix was tested on a **Wemos Mini d1 r1** microcontroller.
